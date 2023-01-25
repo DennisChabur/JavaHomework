@@ -21,10 +21,14 @@ import java.util.Scanner;
 
 //     }
 // }
+
+/*
+ * Вывести все простые числа от 1 до 1000
+ */
     public class program {
 
       public static void main(String[] args) {
-        for (int i = 2; i <= 100; i++) {
+        for (int i = 2; i <= 1000; i++) {
           if (i % 1 == 0 || i % i == 0){
             System.out.println(i);
           }
